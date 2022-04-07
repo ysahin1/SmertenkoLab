@@ -4,7 +4,7 @@ library(DESeq2)
 ###################################################
 ## load file
 ###################################################
-GSE78972s_raw_counts <- read.table("../GSE78972_short_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
+GSE78972s_raw_counts <- read.table("raw_counts/GSE78972_short_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
 head(GSE78972s_raw_counts)
 row.names(GSE78972s_raw_counts) <- GSE78972s_raw_counts$Geneid
 ##########retrieve gene length for GO enrichment
@@ -30,8 +30,6 @@ dds_GSE78972s <- DESeqDataSetFromMatrix(countData = GSE78972s_raw_counts,
                                    colData = GSE78972s_sample_info,
                                    design = ~ condition)
 
-#colData(DESeq.ds)
-#assay(DESeq.ds) %>% head
 
 ##################################
 ### filter out count datas and normalization
@@ -122,4 +120,3 @@ summary(dds_GSE78972s_results)
 dn_GSE78972s <- rownames(subset(dds_GSE78972s_results, 
                              padj < 0.05 & abs(log2FoldChange) > 0))
 length(dn_GSE78972s)
-dn_GSE78972s["LOC_Os02g38050"] 
