@@ -8,7 +8,7 @@ library(DESeq2)
 ###################################################
 ## load file
 ###################################################
-GSE57950h_raw_counts <- read.table("../H471_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
+GSE57950h_raw_counts <- read.table("raw_counts/H471_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
 head(GSE57950h_raw_counts)
 row.names(GSE57950h_raw_counts) <- GSE57950h_raw_counts$Geneid
 ##########retrieve gene length for GO enrichment
@@ -21,8 +21,6 @@ names(GSE57950h_raw_counts) <- c("GSM1398433",
                         "GSM1398445",
                         "GSM1398446")
 GSE57950h_grow_CG <- c("control","control","drought","drought")
-#GSE57950h_grow_CG <- factor(GSE57950h_grow_CG, levels = c("control","drought"))
-#GSE57950h_grow_CG <- relevel(GSE57950h_grow_CG, ref = "control")
 ####################################
 ### generate times series deseq object
 ####################################
@@ -32,9 +30,6 @@ GSE57950h_sample_info <- data.frame(condition=GSE57950h_grow_CG,
 dds_GSE57950h <- DESeqDataSetFromMatrix(countData = GSE57950h_raw_counts,
                                    colData = GSE57950h_sample_info,
                                    design = ~ condition)
-
-#colData(DESeq.ds)
-#assay(DESeq.ds) %>% head
 
 ##################################
 ### filter out count datas and normalization
@@ -50,8 +45,6 @@ sfn_dds_GSE57950h <- counts(dds_GSE57950h, normalized = TRUE)
 
 ########transformation
 ln_dds_GSE57950h <- log2(sfn_dds_GSE57950h+1)
-
-
 ### visulaise norm and log norm data#####
 par(mar=c(9,5,3,3))
 boxplot(sfn_dds_GSE57950h, notch = TRUE,
@@ -71,8 +64,6 @@ plot (ln_dds_GSE57950h [ ,1:2] , cex =.1 , main = " Normalized log2 ( read count
 library(vsn)
 vst_dds_GSE57950h <- vst(dds_GSE57950h, blind = TRUE)
 vstc_dds_GSE57950h <- assay(vst_dds_GSE57950h)
-
-
 
 ######visualize vst norm counts#####
 msd_plot <- meanSdPlot (ln_dds_GSE57950h,
@@ -113,9 +104,6 @@ print (P)
 
 ############## DEG analysis ############################
 dds_GSE57950h <- DESeq(dds_GSE57950h)
-dds_GSE57950h <- estimateSizeFactors(dds_GSE57950h)
-dds_GSE57950h <- estimateDispersions(dds_GSE57950h)
-dds_GSE57950h <- nbinomWaldTest(dds_GSE57950h)
 
 dds_GSE57950h_results <- results(dds_GSE57950h, 
                                 independentFiltering = TRUE, 
@@ -125,35 +113,3 @@ summary(dds_GSE57950h_results)
 dn_GSE57950h <- rownames(subset(dds_GSE57950h_results, 
                              padj < 0.05 & abs(log2FoldChange) > 0))
 length(dn_GSE57950h)
-dn_GSE57950h[c("LOC_Os06g05190",
-               "LOC_Os09g26870",
-               "LOC_Os04g55480",
-               "LOC_Os03g49210",
-               "LOC_Os05g40810",
-               "LOC_Os02g39990",
-               "LOC_Os02g09060",
-               "LOC_Os03g59650",
-               "LOC_Os05g43610",
-               "LOC_Os06g05720",
-               "LOC_Os06g50170",
-               "LOC_Os05g43280",
-               "LOC_Os05g46490",
-               "LOC_Os08g31930",
-               "LOC_Os04g43300",
-               "LOC_Os02g38050")]
-GSE57950h_raw_counts[c("LOC_Os06g05190",
-                       "LOC_Os09g26870",
-                       "LOC_Os04g55480",
-                       "LOC_Os03g49210",
-                       "LOC_Os05g40810",
-                       "LOC_Os02g39990",
-                       "LOC_Os02g09060",
-                       "LOC_Os03g59650",
-                       "LOC_Os05g43610",
-                       "LOC_Os06g05720",
-                       "LOC_Os06g50170",
-                       "LOC_Os05g43280",
-                       "LOC_Os05g46490",
-                       "LOC_Os08g31930",
-                       "LOC_Os04g43300",
-                       "LOC_Os02g38050"),]
