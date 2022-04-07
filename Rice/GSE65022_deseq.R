@@ -3,7 +3,7 @@ library(DESeq2)
 ###################################################
 ## load file
 ###################################################
-GSE65022_raw_counts <- read.table("../GSE65022_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
+GSE65022_raw_counts <- read.table("raw_counts/GSE65022_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
 head(GSE65022_raw_counts)
 row.names(GSE65022_raw_counts) <- GSE65022_raw_counts$Geneid
 ##########retrieve gene length for GO enrichment
@@ -108,10 +108,6 @@ print (P)
 
 ############## DEG analysis ############################
 dds_GSE65022 <- DESeq(dds_GSE65022)
-dds_GSE65022 <- estimateSizeFactors(dds_GSE65022)
-dds_GSE65022 <- estimateDispersions(dds_GSE65022)
-dds_GSE65022 <- nbinomWaldTest(dds_GSE65022)
-
 dds_GSE65022_results <- results(dds_GSE65022, 
                                 independentFiltering = TRUE, 
                                 alpha = 0.05, lfcThreshold = 0)
@@ -120,5 +116,3 @@ summary(dds_GSE65022_results)
 dn_GSE65022 <- rownames(subset(dds_GSE65022_results, 
                              padj < 0.05 & abs(log2FoldChange) > 0))
 length(dn_GSE65022)
-resultsNames(dds_GSE65022)
-dn_GSE65022["LOC_Os02g38050"]
