@@ -1,0 +1,223 @@
+Gene name	At locus	Annotation	At PTS	Os locus	Os PTS	type
+ACH2	At1g01710	Acyl-CoA thioesterase	SKL	LOC_Os04g47120	PKL	PTS-contaning matrix protein
+sT4	At1g04290	Thioesterase family protein	SNL	LOC_Os01g65950	SKL	PTS-contaning matrix protein
+KAT1 (LOC_Os02g57260)	At1g04710	3-Ketoacyl-CoA thiolase 1	RQx5HL	LOC_Os02g57260	RQx5HL	PTS-contaning matrix protein
+KAT1 (LOC_Os10g31950)	At1g04710	3-Ketoacyl-CoA thiolase 1	RQx5HL	LOC_Os10g31950	RQx5HL	PTS-contaning matrix protein
+ACX3	At1g06290	Acyl-CoA oxidase 3	RAx5HI/SSV	LOC_Os06g24704	RAx5HL	PTS-contaning matrix protein
+ACX6	At1g06310	Acyl-CoA oxidase 6	RAx5HI/SSL	LOC_Os11g39220	RLx5HL	PTS-contaning matrix protein
+NDA1	At1g07180	NADPH dehydrogenase A1	SRI	LOC_Os01g61410	SRI	PTS-contaning matrix protein
+UP6	At1g16730	Unknown protein 6	SKL	LOC_Os06g06630	CRL	PTS-contaning matrix protein
+4Cl3	At1g20480	4-Coumarate:CoA ligase 3	SKL	LOC_Os03g04000	SKL	PTS-contaning matrix protein
+OPCL1	At1g20510	OPC-8:0 ligase 1	SKL	LOC_Os03g04000	SKL	PTS-contaning matrix protein
+AAE1 (LOC_Os03g04130)	At1g20560	Acyl-activating enzyme 1	SKL	LOC_Os03g04130	SKL	PTS-contaning matrix protein
+AAE1 (LOC_Os03g04120)	At1g20560	Acyl-activating enzyme 1	SKL	LOC_Os03g04120	SKL	PTS-contaning matrix protein
+AAE1 (LOC_Os02g02700)	At1g20560	Acyl-activating enzyme 1	SKL	LOC_Os02g02700	SKL	PTS-contaning matrix protein
+AAE1 (LOC_Os01g24030)	At1g20560	Acyl-activating enzyme 1	SKL	LOC_Os01g24030	SKL	PTS-contaning matrix protein
+CAT3 (LOC_Os03g03910)	At1g20620	Catalase 3	QKL-10	LOC_Os03g03910	QKL-10	PTS-contaning matrix protein
+CAT3 (LOC_Os06g51150)	At1g20620	Catalase 3	QKL-10	LOC_Os06g51150	QKL-10	PTS-contaning matrix protein
+CAT3 (LOC_Os02g02400)	At1g20620	Catalase 3	QKL-10	LOC_Os02g02400	VKI-10	PTS-contaning matrix protein
+CAT1	At1g20630	Catalase 1	QKL-10	LOC_Os03g03910	QKL-10	PTS-contaning matrix protein
+ATF1	At1g21770	Acetyl transferase 1	SSI	LOC_Os04g35200	SSM	PTS-contaning matrix protein
+GGT1	At1g23310	Glutamate-glyoxylate aminotransferase 1	SKM	LOC_Os07g01760	SRM	PTS-contaning matrix protein
+DEG15	At1g28320	Deg/HtrA protease	SKL	LOC_Os05g41810	SKI	PTS-contaning matrix protein
+AAE14	At1g30520	Acyl-activating enzyme 14	SSL	LOC_Os08g03630	none	PTS-contaning matrix protein
+st1 (LOC_Os03g48480)	At1g48320	Small thioesterase 1	AKL	LOC_Os03g48480	SKL	PTS-contaning matrix protein
+st1 (LOC_Os05g04660)	At1g48320	Small thioesterase 1	AKL	LOC_Os05g04660	AKL	PTS-contaning matrix protein
+pxPfkB	At1g49350	PfkB-type carbohydrate kinase family protein	SML	LOC_Os05g09370	RMx5HL	PTS-contaning matrix protein
+NQR	At1g49670	NADH:quinone reductase	SRL	LOC_Os09g28570	AKL	PTS-contaning matrix protein
+IndA	At1g50510	Indigoidine synthase A	RIx5HL	LOC_Os08g39420	SAL	PTS-contaning matrix protein
+ICDH	At1g54340	NADP-dependent isocitrate dehydrogenase	SRL	LOC_Os01g14580	SKL	PTS-contaning matrix protein
+AAE18	At1g55320	Acyl-activating enzyme 18	SRI	LOC_Os03g59080	SKL	PTS-contaning matrix protein
+NS (LOC_Os01g47350)	At1g60550	Naphthoate synthase	RLx5HL	LOC_Os01g47350	RLx5HL	PTS-contaning matrix protein
+NS (LOC_Os02g43720)	At1g60550	Naphthoate synthase	RLx5HL	LOC_Os02g43720	RAx5HL	PTS-contaning matrix protein
+ECI	At1g65520	Monofunctional enoyl-CoA hydratase/isomerase c	SKL	LOC_Os05g45300	SKL	PTS-contaning matrix protein
+PAO4 (LOC_Os04g57550)	At1g65840	Polyamine oxidase 4	SRM	LOC_Os04g57550	CRT∧	PTS-contaning matrix protein
+PAO4 (LOC_Os04g57560)	At1g65840	Polyamine oxidase 4	SRM	LOC_Os04g57560	SRL	PTS-contaning matrix protein
+AAE12 (LOC_Os09g38350)	At1g65890	Acyl-activating enzyme 12	SRL	LOC_Os09g38350	ARL	PTS-contaning matrix protein
+AAE12 (LOC_Os03g03790)	At1g65890	Acyl-activating enzyme 12	SRL	LOC_Os03g03790	SRL	PTS-contaning matrix protein
+AAE12 (LOC_Os04g57850)	At1g65890	Acyl-activating enzyme 12	SRL	LOC_Os04g57850	SKM	PTS-contaning matrix protein
+HPR	At1g68010	Hydroxypyruvate reductase 1	SKL	LOC_Os02g01150	SKL	PTS-contaning matrix protein
+GGT2	At1g70580	Glutamate-glyoxylate aminotransferase 2	SRM	LOC_Os07g01760	SRM	PTS-contaning matrix protein
+ECH2	At1g76150	Monofunctional enoyl-CoA hydratase 2	SSL	LOC_Os09g37280	SSL	PTS-contaning matrix protein
+ATF2	At1g77540	Acetyltransferase	SSI	LOC_Os04g35200	SSM	PTS-contaning matrix protein
+NADK3	At1g78590	NADH Kinase 3	SRY	LOC_Os09g17680	none	PTS-contaning matrix protein
+OPR3 (LOC_Os08g35740)	At2g06050	12-Oxophytodienoate reductase 3	SRL	LOC_Os08g35740	SRM	PTS-contaning matrix protein
+OPR3 (LOC_Os02g35310)	At2g06050	12-Oxophytodienoate reductase 3	SRL	LOC_Os02g35310	SPL	PTS-contaning matrix protein
+SGAT1	At2g13360	Serine-glyoxylate aminotransferase	SRI	LOC_Os08g39300	SRI	PTS-contaning matrix protein
+MDH1 (LOC_Os12g43630)	At2g22780	NAD+-malate dehydrogenase 1	RIx5HL	LOC_Os12g43630	RMx5HL	PTS-contaning matrix protein
+MDH1 (LOC_Os03g56280)	At2g22780	NAD+-malate dehydrogenase 1	RIx5HL	LOC_Os03g56280	RIx5HL	PTS-contaning matrix protein
+Uri	At2g26230	Uricase	SKL	LOC_Os01g64520	SKL	PTS-contaning matrix protein
+st5 (LOC_Os02g32200)	At2g29590	Small thioesterase 5	SKL	LOC_Os02g32200	SKL	PTS-contaning matrix protein
+st5 (LOC_Os04g35590)	At2g29590	Small thioesterase 5	SKL	LOC_Os04g35590	SKL	PTS-contaning matrix protein
+st5 (LOC_Os01g12910)	At2g29590	Small thioesterase 5	SKL	LOC_Os01g12910	SKL	PTS-contaning matrix protein
+NDA2	At2g29990	NADPH dehydrogenase A2	SRI	LOC_Os01g61410	SRI	PTS-contaning matrix protein
+CHYH1 (LOC_Os12g16350)	At2g30650	ATP-dependent caseinolytic Clp protease/crotonase family protein	AKL	LOC_Os12g16350	PKL	PTS-contaning matrix protein
+CHYH1 (LOC_Os10g42210)	At2g30650	ATP-dependent caseinolytic Clp protease/crotonase family protein	AKL	LOC_Os10g42210	PKL	PTS-contaning matrix protein
+CHYH2 (LOC_Os12g16350)	At2g30660	ATP-dependent caseinolytic Clp protease/crotonase family protein	AKL	LOC_Os12g16350	PKL	PTS-contaning matrix protein
+UP3 (LOC_Os07g41810)	At2g31670	Unknown protein	SSL	LOC_Os07g41810	ANL	PTS-contaning matrix protein
+UP3 (LOC_Os02g57260)	At2g31670	Unknown protein	SSL	LOC_Os07g41820	ANL	PTS-contaning matrix protein
+KAT2 (LOC_Os02g57260)	At2g33150	3-Ketoacyl-CoA thiolase 2	RQx5HL	LOC_Os02g57260	RQx5HL	PTS-contaning matrix protein
+KAT2 (LOC_Os10g31950)	At2g33150	3-Ketoacyl-CoA thiolase 2	RQx5HL	LOC_Os10g31950	RQx5HL	PTS-contaning matrix protein
+ACX5	At2g35690	Acyl-CoA oxidase 5	AKL	LOC_Os06g01390	SRL	PTS-contaning matrix protein
+GLH	At2g38180	GDSL motif lipase/hydrolase family protein	ARL	LOC_Os06g36520	AML	PTS-contaning matrix protein
+PM16 (LOC_Os07g38260)	At2g41790	Peptidase family M16	PKL	LOC_Os07g38260	MKL	PTS-contaning matrix protein
+PM16 (LOC_Os07g38270)	At2g41790	Peptidase family M16	PKL	LOC_Os07g38270	MKL	PTS-contaning matrix protein
+PM16 (LOC_Os07g38280)	At2g41790	Peptidase family M16	PKL	LOC_Os07g38280	MKL	PTS-contaning matrix protein
+CuAO	At2g42490	Copper amine oxidase	SKL	LOC_Os04g40040	SKL	PTS-contaning matrix protein
+CSY3	At2g42790	Citrate synthase 3	RLx5HL/SSV	LOC_Os02g13840	RLx5HL/SAL	PTS-contaning matrix protein
+PAO2	At2g43020	Polyamine oxidase 2	SRL	LOC_Os04g53190	SRL	PTS-contaning matrix protein
+SO (LOC_Os08g41830)	At3g01910	Sulﬁte oxidase	SNL	LOC_Os08g41830	SKM	PTS-contaning matrix protein
+SO (LOC_Os12g25630)	At3g01910	Sulﬁte oxidase	SNL	LOC_Os12g25630	SLL	PTS-contaning matrix protein
+SDRc	At3g01980	Short-chain dehydrogenase/reductase c	SYM	LOC_Os03g63290	SFM	PTS-contaning matrix protein
+6PGDH	At3g02360	Phosphogluconate dehydrogenase	SKI	LOC_Os06g02144	AKM	PTS-contaning matrix protein
+LACS6	At3g05970	Long-chain acyl-CoA synthetase 6	RIx5HL	LOC_Os12g04990	RLx5HL/PKL	PTS-contaning matrix protein
+IBR3	At3g06810	IBA-response 3	SKL	LOC_Os07g47820	ARM	PTS-contaning matrix protein
+MFP2 (LOC_Os01g24680)	At3g06860	Fatty acid multi-functional protein 2	SRL	LOC_Os01g24680	ARL	PTS-contaning matrix protein
+MFP2 (LOC_Os05g06300)	At3g06860	Fatty acid multi-functional protein 2	SRL	LOC_Os05g06300	ARM	PTS-contaning matrix protein
+MFP2 (LOC_Os05g29880)	At3g06860	Fatty acid multi-functional protein 2	SRL	LOC_Os05g29880	SRL	PTS-contaning matrix protein
+SDRb	At3g12800	Short-chain dehydrogenase/reductase b	SKL	LOC_Os04g52400	SKL	PTS-contaning matrix protein
+HAOX1 (LOC_Os07g42440)	At3g14150	Hydroxy-acid oxidase 1	SML	LOC_Os07g42440	SLL	PTS-contaning matrix protein
+HAOX1 (LOC_Os07g05820)	At3g14150	Hydroxy-acid oxidase 1	SML	LOC_Os07g05820	SRL	PTS-contaning matrix protein
+HAOX1 (LOC_Os03g57220)	At3g14150	Hydroxy-acid oxidase 1	SML	LOC_Os03g57220	PRL	PTS-contaning matrix protein
+HAOX1 (LOC_Os04g53210)	At3g14150	Hydroxy-acid oxidase 1	SML	LOC_Os04g53210	SRL	PTS-contaning matrix protein
+GO1	At3g14415	Glycolate oxidase 1	PRL	LOC_Os07g05820	SRL	PTS-contaning matrix protein
+GO2	At3g14420	Glycolate oxidase 2	ARL	LOC_Os07g05820	SRL	PTS-contaning matrix protein
+HBCDH	At3g15290	Hydroxybutyryl-CoA dehydrogenase	PRL	LOC_Os01g58380	SSL	PTS-contaning matrix protein
+AAE7 (LOC_Os03g19240)	At3g16910	Acyl-activating enzyme 7	SRL	LOC_Os03g19240	SRM	PTS-contaning matrix protein
+AAE7 (LOC_Os03g19250	At3g16910	Acyl-activating enzyme 7	SRL	LOC_Os03g19250	SRM	PTS-contaning matrix protein
+GPK1	At3g17420	Glyoxysomal protein kinase 1	AKI	LOC_Os01g21960	SSK	PTS-contaning matrix protein
+SCO3	At3g19570	Snowy Cotyledon 3	SRL	LOC_Os03g10820	none	PTS-contaning matrix protein
+ICL	At3g21720	Isocitrate lyase	SRM	LOC_Os07g34520	SRM	PTS-contaning matrix protein
+GR1	At3g24170	Glutathione reductase 1	TNL	LOC_Os02g56850	TNL	PTS-contaning matrix protein
+BADH (LOC_Os08g32870)	At3g48170	Aldehyde dehydrogenase	SKL	LOC_Os08g32870	SKL	PTS-contaning matrix protein
+BADH (LOC_Os04g39020)	At3g48170	Aldehyde dehydrogenase	SKL	LOC_Os04g39020	SKL	PTS-contaning matrix protein
+MIF	At3g51660	Macrophage migration inhibitory factor	SKL	LOC_Os11g01600	none	PTS-contaning matrix protein
+ACX4 (LOC_Os01g06600)	At3g51840	Acyl-CoA oxidase 4	SRL	LOC_Os01g06600	ARL	PTS-contaning matrix protein
+ACX4 (LOC_Os05g07090)	At3g51840	Acyl-CoA oxidase 4	SRL	LOC_Os05g07090	SRL	PTS-contaning matrix protein
+ACX4 (LOC_Os06g23780)	At3g51840	Acyl-CoA oxidase 4	SRL	LOC_Os06g23780	ARL	PTS-contaning matrix protein
+MDAR1 (LOC_Os09g39380)	At3g52880	Monodehydroascorbate reductase 1	AKI	LOC_Os09g39380	SKI	PTS-contaning matrix protein
+MDAR1 (LOC_Os08g44340)	At3g52880	Monodehydroascorbate reductase 1	AKI	LOC_Os08g44340	AKV	PTS-contaning matrix protein
+SDR	At3g55290	Short-chain dehydrogenase/reductase	SSL	LOC_Os08g39960	SSL	PTS-contaning matrix protein
+ZnDH	At3g56460	Zinc-binding dehydrogenase	SKL	LOC_Os05g24880	SRL	PTS-contaning matrix protein
+HIT3 (LOC_Os01g59750)	At3g56490	Histidine triad family protein 3	RVx5HF	LOC_Os01g59750	RLx5HL	PTS-contaning matrix protein
+HIT3 (LOC_Os11g18990)	At3g56490	Histidine triad family protein 3	RVx5HF	LOC_Os11g18990	RLx5HL	PTS-contaning matrix protein
+CP	At3g57810	Cysteine protease	SKL	LOC_Os09g31280	SRL	PTS-contaning matrix protein
+CSY2	At3g58750	Citrate synthase 2	RLx5HL/SAL	LOC_Os02g13840	RLx5HL/SAL	PTS-contaning matrix protein
+PAO3	At3g59050	Polyamine oxidase 3	SRM	LOC_Os04g53190	SRL	PTS-contaning matrix protein
+st3	At3g61200	Small thioesterase 3	SKL	LOC_Os07g27960	ASL	PTS-contaning matrix protein
+ACH	At4g00520	Acyl-CoA thioesterase family protein	AKL	LOC_Os04g47120	PKL	PTS-contaning matrix protein
+EH3 (LOC_Os05g19150)	At4g02340	Epoxide hydrolase 3	ASL	LOC_Os05g19150	AEM	PTS-contaning matrix protein
+EH3 (LOC_Os01g15120)	At4g02340	Epoxide hydrolase 3	ASL	LOC_Os01g15120	SKF	PTS-contaning matrix protein
+EH3 (LOC_Os03g61340)	At4g02340	Epoxide hydrolase 3	ASL	LOC_Os03g61340	SRL	PTS-contaning matrix protein
+EH3 (LOC_Os10g35520)	At4g02340	Epoxide hydrolase 3	ASL	LOC_Os10g35520	RQx4HL	PTS-contaning matrix protein
+MCD	At4g04320	Malonyl-CoA decarboxylase	SRL	LOC_Os09g23070	none	PTS-contaning matrix protein
+4CL1 (LOC_Os03g05780)	At4g05160	4-Coumarate:CoA ligase 1	SKM	LOC_Os03g05780	SKL	PTS-contaning matrix protein
+4CL1 (LOC_Os10g42800)	At4g05160	4-Coumarate:CoA ligase 1	SKM	LOC_Os10g42800	SRL	PTS-contaning matrix protein
+4CL1 (LOC_Os07g17970)	At4g05160	4-Coumarate:CoA ligase 1	SKM	LOC_Os07g17970	SRL	PTS-contaning matrix protein
+IBR1	At4g05530	Indole-3-butyric acid response 1	SRL	LOC_Os09g04730	SRL	PTS-contaning matrix protein
+IBR10	At4g14430	Indole-3-butyric acid response 10	PKL	LOC_Os05g45300	SKL	PTS-contaning matrix protein
+ECHIA	At4g16210	Monofunctional enoyl-CoA hydratase/isomerase a	SKL	LOC_Os03g19680	SKL	PTS-contaning matrix protein
+HIT1	At4g16566	Histidine triad family protein 1	SKV	LOC_Os01g59750	RLx5HL	PTS-contaning matrix protein
+ACX1	At4g16760	Acyl-CoA oxidase 1	ARL	LOC_Os06g01390	SRL	PTS-contaning matrix protein
+GO3	At4g18360	Glycolate oxidase 3	AKL	LOC_Os03g57220	PRL	PTS-contaning matrix protein
+4Cl5	At4g19010	4-Coumarate:CoA ligase 5	SRL	LOC_Os08g04770	SKL	PTS-contaning matrix protein
+NDB1 (LOC_Os06g47000)	At4g28220	NADPH dehydrogenase B1	SRI	LOC_Os06g47000	SRI	PTS-contaning matrix protein
+NDB1 (LOC_Os05g26660)	At4g28220	NADPH dehydrogenase B1	SRI	LOC_Os05g26660	SSL	PTS-contaning matrix protein
+AIM1	At4g29010	Abnormal inﬂorescence meristem 1	SKL	LOC_Os02g17390	SRM	PTS-contaning matrix protein
+CAT2	At4g35090	Catalase 2	QKL-10	LOC_Os03g03910	QKL-10	PTS-contaning matrix protein
+AGT2 (LOC_Os03g07570)	At4g39660	Alanine: glyoxylate aminotransferase 2	SRL	LOC_Os03g07570	SGL	PTS-contaning matrix protein
+AGT2 (LOC_Os03g21960)	At4g39660	Alanine: glyoxylate aminotransferase 2	SRL	LOC_Os03g21960	SKL	PTS-contaning matrix protein
+AGT2 (LOC_Os05g39770)	At4g39660	Alanine: glyoxylate aminotransferase 2	SRL	LOC_Os05g39770	SKL	PTS-contaning matrix protein
+MLS	At5g03860	Malate synthase	SRL	LOC_Os04g40990	CKL	PTS-contaning matrix protein
+BIOTIN F	At5g04620	7-Keto-8-aminopelargonic acid synthase	PKL	LOC_Os01g53450	SKL	PTS-contaning matrix protein
+MDH2 (LOC_Os12g43630)	At5g09660	NAD+-malate dehydrogenase 2	RIx5HL	LOC_Os12g43630	RMx5HL	PTS-contaning matrix protein
+MDH2 (LOC_Os03g56280)	At5g09660	NAD+-malate dehydrogenase 2	RIx5HL	LOC_Os03g56280	RIx5HL	PTS-contaning matrix protein
+ASP3	At5g11520	Aspartate aminotransferase	RIx5HL	LOC_Os01g55540	RLx5HL	PTS-contaning matrix protein
+ELT1 (LOC_Os01g39790)	At5g11910	Esterase/lipase/thioesterase family 1	SRI	LOC_Os01g39790	SSA	PTS-contaning matrix protein
+ELT1 (LOC_Os05g46210)	At5g11910	Esterase/lipase/thioesterase family 1	SRI	LOC_Os05g46210	PKL	PTS-contaning matrix protein
+AAE5	At5g16370	Acyl-activating enzyme 5	SRM	LOC_Os04g57850	SKM	PTS-contaning matrix protein
+ATMS1	At5g17920	Cobalamin-independent methionine synthase	SAK	LOC_Os12g42884	SAK	PTS-contaning matrix protein
+CSD3	At5g18100	Copper/zinc superoxide dismutase 3	AKL	LOC_Os03g11960	SAV	PTS-contaning matrix protein
+NUDT19	At5g20070	Nudix hydrolase homolog 19	SSL	LOC_Os06g04910	SNL	PTS-contaning matrix protein
+AAE17	At5g23050	Acyl-activating enzyme 17	SKL	LOC_Os09g21230	SKI	PTS-contaning matrix protein
+MIA40	At5g23395	Mitochondrial intermembrane space assembly machinery 40	SKL	LOC_Os04g44550	PKL	PTS-contaning matrix protein
+6PGL	At5g24400	6-Phosphogluconolactonase	SKL	LOC_Os08g43370	SSI	PTS-contaning matrix protein
+LACS7	At5g27600	Long-chain acyl-CoA synthetase 7	RLx5HI/SKL	LOC_Os11g04980	RLx5HL/SKL	PTS-contaning matrix protein
+AtHsp15.7	At5g37670	Heat shock protein similar to 17.6 kDa class I	SKL	LOC_Os06g14240	SKL	PTS-contaning matrix protein
+GSTT1 (LOC_Os11g37730)	At5g41210	Glutathione S-transferase θ isoform 1	SKI	LOC_Os11g37730	SKL	PTS-contaning matrix protein
+GSTT1 (LOC_Os11g37750)	At5g41210	Glutathione S-transferase θ isoform 1	SKI	LOC_Os11g37750	SKL	PTS-contaning matrix protein
+SCP2	At5g42890	Sterol carrier protein 2	SKL	LOC_Os02g52720	SKL	PTS-contaning matrix protein
+AtDCI	At5g43280	Δ3,5-Δ2,4-Enoyl-CoA isomerase	AKL	LOC_Os01g70090	SKL	PTS-contaning matrix protein
+UP5	At5g44250	Unknown protein 5	SRL	LOC_Os11g40070	SKL	PTS-contaning matrix protein
+LON2	At5g47040	Lon protease homolog 2	SKL	LOC_Os09g36300	SKL	PTS-contaning matrix protein
+ACAT1.3	At5g47720	Acetoacetyl-CoA thiolase 1.3	SAL	LOC_Os01g02020	SSL	PTS-contaning matrix protein
+HIT2 (LOC_Os11g18990)	At5g48545	Histidine triad family protein 2	RLx5HL	LOC_Os11g18990	RLx5HL	PTS-contaning matrix protein
+HIT2 (LOC_Os12g13120)	At5g48545	Histidine triad family protein 2	RLx5HL	LOC_Os12g13120	RLx5HL	PTS-contaning matrix protein
+KAT5	At5g48880	3-Ketoacyl-CoA thiolase 5	RQx5HL	LOC_Os02g57260	RQx5HL	PTS-contaning matrix protein
+TLP	At5g58220	Transthyretin-like protein	RLx5HL	LOC_Os03g27320	RMx5HL	PTS-contaning matrix protein
+4CL2	At5g63380	4-Coumarate:CoA ligase 2	SKL	LOC_Os01g67540	SRL	PTS-contaning matrix protein
+ACX2	At5g65110	Acyl-CoA oxidase 2	RIx5HL	LOC_Os11g39220	RIx5HL	PTS-contaning matrix protein
+UP7	At5g65400	Unknown protein 7	SLM	LOC_Os04g37710	none	PTS-contaning matrix protein
+CHY1	At5g65940	3-Hydroxyisobutyryl-CoA hydrolase	AKL	LOC_Os12g16350	PKL	PTS-contaning matrix protein
+PEX11c	At1g01820	Peroxin 11 c		LOC_Os06g03660		peroxisome membrane protein
+PEX6	At1g03000	Peroxin 6		LOC_Os04g52690		peroxisome membrane protein
+PEX7	At1g29260	Peroxin 7		LOC_Os02g14790		peroxisome membrane protein
+PEX11a (LOC_Os03g19010)	At1g47750	Peroxin 11a		LOC_Os03g19010		peroxisome membrane protein
+PEX11a (LOC_Os03g19000)	At1g47750	Peroxin 11a		LOC_Os03g19000		peroxisome membrane protein
+PEX3B	At1g48635	Peroxin 3 isoform B		LOC_Os09g14510		peroxisome membrane protein
+PEX2	At1g79810	Peroxin 2		LOC_Os05g19480		peroxisome membrane protein
+DRP3B (LOC_Os01g69130)	At2g14120	Dynamin-related protein 3B		LOC_Os01g69130		peroxisome membrane protein
+DRP3B (LOC_Os04g31190)	At2g14120	Dynamin-related protein 3B		LOC_Os04g31190		peroxisome membrane protein
+PEX10	At2g26350	Peroxin 10		LOC_Os07g41800		peroxisome membrane protein
+PEX16	At2g45690	Peroxin 16		LOC_Os02g03070		peroxisome membrane protein
+PEX11d	At2g45740	Peroxin 11d		LOC_Os03g02590		peroxisome membrane protein
+PEX19A	At3g03490	Peroxin 19 isoform A		LOC_Os02g44220		peroxisome membrane protein
+PEX12	At3g04460	Peroxin 12		LOC_Os10g32960		peroxisome membrane protein
+PEX13	At3g07560	Peroxin 13		LOC_Os07g05810		peroxisome membrane protein
+APEM9	At3g10572	Aberrant peroxisome morphology 9		LOC_Os06g48970		peroxisome membrane protein
+PEX3A	At3g18160	Peroxin 3 isoform A		LOC_Os09g14510		peroxisome membrane protein
+DRP5B	At3g19720	Dynamin-related protein 5B		LOC_Os12g07880		peroxisome membrane protein
+PEX22 (LOC_Os04g53690)	At3g21865	Peroxin 22		LOC_Os04g53690		peroxisome membrane protein
+PEX22 (LOC_Os04g57680)	At3g21865	Peroxin 22		LOC_Os04g57680		peroxisome membrane protein
+PEX11b	At3g47430	Peroxin 11b		LOC_Os04g45210		peroxisome membrane protein
+FIS1A (LOC_Os03g24060)	At3g57090	Fission 1 isoform A		LOC_Os03g24060		peroxisome membrane protein
+FIS1A (LOC_Os05g31770)	At3g57090	Fission 1 isoform A		LOC_Os05g31770		peroxisome membrane protein
+FIS1A (LOC_Os01g72280)	At3g57090	Fission 1 isoform A		LOC_Os01g72280		peroxisome membrane protein
+PEX11e	At3g61070	Peroxin 11e		LOC_Os06g03660		peroxisome membrane protein
+DRP3A (LOC_Os01g69130)	At4g33650	Dynamin-related protein 3A		LOC_Os01g69130		peroxisome membrane protein
+DRP3A (LOC_Os04g31190)	At4g33650	Dynamin-related protein 3A		LOC_Os04g31190		peroxisome membrane protein
+PEX1	At5g08470	Peroxin 1		LOC_Os08g44240		peroxisome membrane protein
+FIS1B (LOC_Os05g31770)	At5g12390	Fission 1 isoform B		LOC_Os05g31770		peroxisome membrane protein
+FIS1B (LOC_Os01g72280)	At5g12390	Fission 1 isoform B		LOC_Os01g72280		peroxisome membrane protein
+FIS1B (LOC_Os03g24060)	At5g12390	Fission 1 isoform B		LOC_Os03g24060		peroxisome membrane protein
+PEX19B	At5g17550	Peroxin 19 isoform B		LOC_Os02g44220		peroxisome membrane protein
+PEX4	At5g25760	Peroxin 4		LOC_Os02g42314		peroxisome membrane protein
+PEX5	At5g56290	Peroxin 5		LOC_Os08g39080		peroxisome membrane protein
+PEX14	At5g62810	Peroxin 14		LOC_Os05g01090		peroxisome membrane protein
+PNC1	At3g05290	Peroxisomal adenine nucleotide carrier 1		LOC_Os05g32630		peroxisome membrane protein
+CDC (LOC_Os03g16080)	At3g55640	Ca2+-dependent carrier		LOC_Os03g16080		peroxisome membrane protein
+CDC (LOC_Os01g04990)	At3g55640	Ca2+-dependent carrier		LOC_Os01g04990		peroxisome membrane protein
+PMP22 (LOC_Os02g13270)	At4g04470	Peroxisomal membrane protein of 22 kDa		LOC_Os02g13270		peroxisome membrane protein
+PMP22 (LOC_Os08g45210)	At4g04470	Peroxisomal membrane protein of 22 kDa		LOC_Os08g45210		peroxisome membrane protein
+PMP22 (LOC_Os01g12800)	At4g04470	Peroxisomal membrane protein of 22 kDa		LOC_Os01g12800		peroxisome membrane protein
+PXA1/CTS (LOC_Os01g73530)	At4g39850	Peroxisomal ABC transporter 1/Comatose		LOC_Os01g73530		peroxisome membrane protein
+PXA1/CTS (LOC_Os05g01700)	At4g39850	Peroxisomal ABC transporter 1/Comatose		LOC_Os05g01700		peroxisome membrane protein
+PNC2	At5g27520	Peroxisomal adenine nucleotide carrier 2		LOC_Os05g32630		peroxisome membrane protein
+PXN/PMP38/PMP36 (LOC_Os03g15860)	At2g39970	Peroxisomal membrane protein of 36 kDa		LOC_Os03g15860		peroxisome membrane protein
+PXN/PMP38/PMP36 (LOC_Os02g13170)	At2g39970	Peroxisomal membrane protein of 36 kDa		LOC_Os02g13170		peroxisome membrane protein
+PXN/PMP38/PMP36 (LOC_Os09g33470)	At2g39970	Peroxisomal membrane protein of 36 kDa		LOC_Os09g33470		peroxisome membrane protein
+PEN2 (LOC_Os06g21570)	At2g44490	Penetration 2		LOC_Os06g21570		peroxisome membrane protein
+PEN2 (LOC_Os04g39880)	At2g44490	Penetration 2		LOC_Os04g39880		peroxisome membrane protein
+PEN2 (LOC_Os04g39900)	At2g44490	Penetration 2		LOC_Os04g39900		peroxisome membrane protein
+MDAR4 (LOC_Os02g47800)	At3g27820	Monodehydroascorbate reductase 4		LOC_Os02g47800		peroxisome membrane protein
+MDAR4 (LOC_Os02g47790)	At3g27820	Monodehydroascorbate reductase 4		LOC_Os02g47790		peroxisome membrane protein
+APX3 (LOC_Os08g43560)	At4g35000	Ascorbate peroxidase 3		LOC_Os08g43560		peroxisome membrane protein
+APX3 (LOC_Os04g14680)	At4g35000	Ascorbate peroxidase 3		LOC_Os04g14680		peroxisome membrane protein
+DHAR (LOC_Os05g02530)	At1g19570	Dehydroascorbate reductase 1		LOC_Os05g02530		peroxisome membrane protein
+DHAR (LOC_Os06g12630)	At1g19570	Dehydroascorbate reductase 1		LOC_Os06g12630		peroxisome membrane protein
+GLX1	At1g11840	Glyoxylase I homolog		LOC_Os08g09250		peroxisome protein lacking PTS
+SMP2	At2g02510	Short membrane protein 2		LOC_Os02g35610		peroxisome protein lacking PTS
+SOX (LOC_Os09g32290)	At2g24580	Sarcosine oxidase		LOC_Os09g32290		peroxisome protein lacking PTS
+SOX (LOC_Os12g35890)	At2g24580	Sarcosine oxidase		LOC_Os12g35890		peroxisome protein lacking PTS
+SOX (LOC_Os01g21380)	At2g24580	Sarcosine oxidase		LOC_Os01g21380		peroxisome protein lacking PTS
+CoAE	At2g27490	Dephospho-CoA kinase		LOC_Os01g25880		peroxisome protein lacking PTS
