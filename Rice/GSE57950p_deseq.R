@@ -3,7 +3,7 @@ library(DESeq2)
 ###################################################
 ## load file
 ###################################################
-GSE57950p_raw_counts <- read.table("../P28_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
+GSE57950p_raw_counts <- read.table("raw_counts/P28_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
 head(GSE57950p_raw_counts)
 row.names(GSE57950p_raw_counts) <- GSE57950p_raw_counts$Geneid
 ##########retrieve gene length for GO enrichment
@@ -16,8 +16,7 @@ names(GSE57950p_raw_counts) <- c("GSM1398431",
                         "GSM1398443",
                         "GSM1398444")
 GSE57950p_grow_CG <- c("control","control","drought","drought")
-#GSE57950p_grow_CG <- factor(GSE57950p_grow_CG, levels = c("control","drought"))
-#GSE57950p_grow_CG <- relevel(GSE57950p_grow_CG, ref = "control")
+
 ####################################
 ### generate times series deseq object
 ####################################
@@ -120,4 +119,3 @@ summary(dds_GSE57950p_results)
 dn_GSE57950p <- rownames(subset(dds_GSE57950p_results, 
                              padj < 0.05 & abs(log2FoldChange) > 0))
 length(dn_GSE57950p)
-dn_GSE57950p["LOC_Os02g38050"] 
