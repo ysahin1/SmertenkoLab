@@ -1,5 +1,5 @@
 library(topGO)
-GO_slim_table <- read.delim2("/media/yunus/TOSHIBA1TB/reference_genomes/maizeB73/annotations/maize/Zmays_493_RefGen_V4.annotation_info_pythozome.txt", header=T, comment.char="#")
+GO_slim_table <- read.delim2("Zmays_493_RefGen_V4.annotation_info_pythozome.txt", header=T, comment.char="#")
 GOs <- strsplit(as.vector(GO_slim_table$GO), "," )
 nGOs <- sapply(1:length(GOs), function(x) length(GOs[[x]]))
 GOs_GSE132113 <- data.frame(gene_id = rep(GO_slim_table$locusName, nGOs), 
