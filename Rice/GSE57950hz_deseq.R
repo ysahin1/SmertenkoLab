@@ -4,7 +4,7 @@ library(DESeq2)
 ###################################################
 ## load file
 ###################################################
-GSE57950hz_raw_counts <- read.table("../HHZ_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
+GSE57950hz_raw_counts <- read.table("raw_counts/HHZ_raw_counts_hisat-sorted.txt", header = TRUE, sep="\t")
 head(GSE57950hz_raw_counts)
 row.names(GSE57950hz_raw_counts) <- GSE57950hz_raw_counts$Geneid
 ##########retrieve gene length for GO enrichment
@@ -17,9 +17,6 @@ names(GSE57950hz_raw_counts) <- c("GSM1398429",
                         "GSM1398441",
                         "GSM1398442")
 GSE57950hz_grow_CG <- c("control","control","drought","drought")
-#GSE57950hz_grow_CG <- factor(GSE57950hz_grow_CG, levels = c("control","drought"))
-#GSE57950hz_grow_CG <- relevel(GSE57950hz_grow_CG, ref = "control")
-####################################
 ### generate times series deseq object
 ####################################
 GSE57950hz_sample_info <- data.frame(condition=GSE57950hz_grow_CG,
@@ -28,10 +25,6 @@ GSE57950hz_sample_info <- data.frame(condition=GSE57950hz_grow_CG,
 dds_GSE57950hz <- DESeqDataSetFromMatrix(countData = GSE57950hz_raw_counts,
                                    colData = GSE57950hz_sample_info,
                                    design = ~ condition)
-
-#colData(DESeq.ds)
-#assay(DESeq.ds) %>% head
-
 ##################################
 ### filter out count datas and normalization
 ################################## 
@@ -67,8 +60,6 @@ plot (ln_dds_GSE57950hz [ ,1:2] , cex =.1 , main = " Normalized log2 ( read coun
 library(vsn)
 vst_dds_GSE57950hz <- vst(dds_GSE57950hz, blind = TRUE)
 vstc_dds_GSE57950hz <- assay(vst_dds_GSE57950hz)
-
-
 
 ######visualize vst norm counts#####
 msd_plot <- meanSdPlot (ln_dds_GSE57950hz,
@@ -109,9 +100,6 @@ print (P)
 
 ############## DEG analysis ############################
 dds_GSE57950hz <- DESeq(dds_GSE57950hz)
-dds_GSE57950hz <- estimateSizeFactors(dds_GSE57950hz)
-dds_GSE57950hz <- estimateDispersions(dds_GSE57950hz)
-dds_GSE57950hz <- nbinomWaldTest(dds_GSE57950hz)
 
 dds_GSE57950hz_results <- results(dds_GSE57950hz, 
                                 independentFiltering = TRUE, 
@@ -121,4 +109,3 @@ summary(dds_GSE57950hz_results)
 dn_GSE57950hz <- rownames(subset(dds_GSE57950hz_results, 
                              padj < 0.05 & abs(log2FoldChange) > 2))
 length(dn_GSE57950hz)
-dn_GSE57950hz["LOC_Os02g38050"]
