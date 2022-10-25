@@ -7,5 +7,7 @@ Bash Scripts
 
 Bash Codes for the pipline of differentially expressed gene analysis using FASTQC, trimomamatics, Hisat2 and FeatureCounts
 
+For downloading process from NCBI, we added S.Bicolor related codes in the pipline.
+
 =======
 Please send an e-mail for any informal request: yunus.sahin@wsu.edu.
